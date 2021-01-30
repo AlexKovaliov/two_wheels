@@ -1,19 +1,22 @@
-import ImageOne from '../../../img/icons/user.svg'
-import ImageTwo from '../../../img/icons/search.svg'
-import ImageThree from '../../../img/icons/cart.svg'
+import ImageUser from '../../../img/icons/user.svg'
+import ImageSearch from '../../../img/icons/search.svg'
+import ImageCart from '../../../img/icons/cart.svg'
 
 
 export const LinkData = [
     {
-        image: ImageOne,
-        alt: "User"
+        image: ImageUser,
+        alt: "User",
+        way: "#"
     },
     {
-        image: ImageTwo,
-        alt: "Search"
+        image: ImageSearch,
+        alt: "Search",
+        way: "#"
     },
     {
-        image: ImageThree,
-        alt: "Cart"
+        image: ImageCart,
+        alt: "Cart",
+        way: "#"
     }
 ]
