@@ -1,0 +1,140 @@
+.header {
+    height: 800px;
+    width: 100%;
+    padding-top: 36px;
+    background-color: #f3e1d5;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-bottom: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.logo {
+    justify-content: center;
+    width: 165px;
+    height: 85px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #404040;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+}
+
+.navLink {
+    position: relative;
+    color: #404040;
+    text-decoration: none;
+    margin-right: 52px;
+}
+
+.navLink::after {
+    position: absolute;
+    right: -27px;
+    top: 12px;
+    content: '';
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #004cff;
+    pointer-events: none;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.navLink:last-child {
+    margin-right: 0;
+}
+
+.navLink:last-child:after {
+    display: none;
+}
+
+.navLink:hover {
+    color: #004cff;
+}
+
+.button {
+    height: 65px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #004cff;
+    color: #ffffff;
+    font-family: 'Teko', sans-serif;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: 0.45px;
+    text-decoration: none;
+    -webkit-transition: background-color 0.2s ease-in;
+    transition: background-color 0.2s ease-in;
+}
+
+.button:hover {
+    background-color: #404040;
+    cursor: pointer;
+}
+
+.promo {
+    max-width: 400px;
+}
+
+.title {
+    font-family: 'Teko', sans-serif;
+    font-size: 68px;
+    font-weight: 700;
+    letter-spacing: 2.73px;
+    margin-bottom: 60px;
+    color: #ffffff;
+    line-height: 72px;
+}
+
+.promoButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 45px;
+    border: 6px solid #ffffff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    -webkit-transition: border-color 0.2s ease-in, color 0.2s ease-in;
+    transition: border-color 0.2s ease-in, color 0.2s ease-in;
+}
+
+.promoButton:hover {
+    border: 6px solid #004cff;
+    color: #004cff;
+}
