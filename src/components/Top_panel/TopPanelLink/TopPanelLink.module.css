@@ -1,0 +1,11 @@
+.link:not(:last-child) {
+    margin-right: 28px;
+}
+
+.img {
+    height: 30px;
+    width: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
