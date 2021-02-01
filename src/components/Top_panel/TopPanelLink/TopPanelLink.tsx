@@ -1,12 +1,12 @@
 import React from 'react';
 import s from './TopPanelLink.module.css'
 
-type ImagesType = { image: string, alt: string, way: string }[]
+type TopPanelLinkImagesType = { image: string, alt: string, way: string }[]
 
 
-export function TopPanelLink(props: { images: ImagesType }) {
+export function TopPanelLink(props: { images: TopPanelLinkImagesType }) {
     return (
-        <div className="App">
+        <div className={s.icons}>
             {props.images.map((value) => {
                 return (
                     <a href={value.way} className={s.link}>

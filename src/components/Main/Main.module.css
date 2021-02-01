@@ -1,0 +1,16 @@
+.topInfo {
+    padding-top: 44px;
+    padding-bottom: 60px;
+}
+
+.containerWide {
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
