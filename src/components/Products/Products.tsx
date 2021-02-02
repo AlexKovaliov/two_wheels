@@ -1,4 +1,5 @@
 import React from 'react';
+import {ProductFilter} from './ProductFilter/ProductFilter';
 import s from './Products.module.css'
 
 
@@ -9,9 +10,10 @@ export function Products() {
                 <div className={s.title}>
                     Our Product
                 </div>
+                <div className={s.filter}>
+                    <ProductFilter/>
+                </div>
             </div>
         </div>
     );
 }
-
-
