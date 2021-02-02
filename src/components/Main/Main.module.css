@@ -14,3 +14,38 @@
     justify-content: space-between;
     margin-bottom: 44px;
 }
+
+.info {
+    position: relative;
+    width: 420px;
+    height: 400px;
+    margin-right: 44px;
+}
+
+.info:last-child {
+    margin-right: 0;
+}
+
+
+.wide .title {
+    top: 100px;
+    left: 145px;
+    width: 400px;
+    font-size: 68px;
+}
+
+.wide .discount {
+    right: 68px;
+    bottom: 73px;
+    width: 143px;
+    font-size: 78px;
+}
+
+.wide .discount span {
+    font-size: 43px;
+}
+
+
+.wide {
+    width: 890px;
+}

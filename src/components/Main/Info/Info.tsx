@@ -3,27 +3,22 @@ import s from './Info.module.css'
 
 
 type InfoDataType = {
-    image: string,
-    alt: string,
+    img: { backgroundImage: string },
     way: string,
     title: string,
     discount: string
-}[]
+}
 
-export function Info(props: { info: InfoDataType }) {
+
+export function Info(props: InfoDataType) {
+
     return (
         <>
-            {props.info.map((value) => {
-                return (
-                    <div className={s.info}>
-                        <img className={s.img} src={value.image} alt={value.alt}/>
-                        <a className={s.content} href={value.way}>
-                            <span className={s.title}>{value.title}</span>
-                            <span className={s.discount}><span>up to </span>{value.discount}</span>
-                        </a>
-                    </div>
-                )
-            })}
+            <div className={s.img} style={props.img}/>
+            <a className={s.content} href={props.way}>
+                <span className={s.title}>{props.title}</span>
+                <span className={s.discount}><span>up to </span>{props.discount}</span>
+            </a>
         </>
-    );
+    )
 }

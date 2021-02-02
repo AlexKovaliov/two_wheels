@@ -5,33 +5,34 @@ import info4 from '../../../img/info/info4.jpg'
 
 let year = (new Date().getFullYear())
 
-export const InfoData = [
-    {
-        image: info1,
-        alt: "Motorcycle Harley Davidson",
-        way: "#",
-        title: "The fuel royal rally 400",
-        discount: "50% off"
-    },
-    {
-        image: info2,
-        alt: "Motorcycle Harley Davidson",
-        way: "#",
-        title: "The year is" + ` ${year}. ` + "It's time to ride.",
-        discount: "10% off"
-    },
-    {
-        image: info3,
-        alt: "Motorcycle Harley Davidson",
-        way: "#",
-        title: "Stay in the saddle",
-        discount: "25% off"
-    },
-    {
-        image: info4,
-        alt: "Motorcycle Harley Davidson",
-        way: "#",
-        title: "Adventure never goes out of style.",
-        discount: "30% off"
-    }
-]
+
+export let Info1 = {
+    image: info1,
+    alt: "Motorcycle Harley Davidson",
+    way: "#",
+    title: "The fuel royal rally 400",
+    discount: "50% off"
+}
+
+export let Info2 = {
+    image: info2,
+    alt: "Motorcycle Harley Davidson",
+    way: "#",
+    title: "The year is" + ` ${(new Date().getFullYear())}. ` + "It's time to ride.",
+    discount: "10% off"
+}
+export let Info3 = {
+    image: info3,
+    alt: "Motorcycle Harley Davidson",
+    way: "#",
+    title: "Stay in the saddle",
+    discount: "25% off"
+}
+
+export let Info4 = {
+    image: info4,
+    alt: "Motorcycle Harley Davidson",
+    way: "#",
+    title: "Adventure never goes out of style.",
+    discount: "30% off"
+}
