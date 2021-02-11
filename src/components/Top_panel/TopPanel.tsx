@@ -19,5 +19,3 @@ export function TopPanel() {
         </div>
     );
 }
-
-
