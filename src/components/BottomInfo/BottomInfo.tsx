@@ -23,7 +23,7 @@ export function BottomInfo() {
                         <img className={s.img} style={Info5Img}/>
                         <a className={s.content} href="#">
                             <span className={s.title}>for the purchase of any motorcycle for the customers of the our motorcycle school</span>
-                            <span className={s.discount}><span>up to</span>30%</span>
+                            <span className={s.discount}><span>up to</span><br/>30%</span>
                         </a>
                     </div>
 
@@ -31,7 +31,7 @@ export function BottomInfo() {
                         <img className={s.img} style={Info6Img}/>
                         <a className={s.content} href="#">
                             <span className={s.title}>Discounts for regular and wholesale customers from our motorcycle house.</span>
-                            <span className={s.discount}><span>up to</span>15-50%</span>
+                            <span className={s.discount}><span>up to</span><br/>15-50%</span>
                         </a>
                     </div>
 
