@@ -8,6 +8,7 @@ import {Products} from "./components/Products/Products";
 import {BottomInfo} from "./components/BottomInfo/BottomInfo";
 import {Form} from "./components/Form/Form";
 import {Service} from './components/Service/Service';
+import {ServiceData} from "./components/Service/ServiceData";
 
 function App() {
     return (
@@ -18,7 +19,7 @@ function App() {
             <Products/>
             <BottomInfo/>
             <Form/>
-            <Service/>
+            <Service data={ServiceData}/>
         </div>
     );
 }
