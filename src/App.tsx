@@ -6,6 +6,7 @@ import {Header} from "./components/Header/Header";
 import {Main} from "./components/Main/Main";
 import {Products} from "./components/Products/Products";
 import {BottomInfo} from "./components/BottomInfo/BottomInfo";
+import {Form} from "./components/Form/Form";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Main/>
             <Products/>
             <BottomInfo/>
+            <Form/>
         </div>
     );
 }

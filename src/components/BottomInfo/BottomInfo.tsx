@@ -20,15 +20,15 @@ export function BottomInfo() {
                 <div className={s.row}>
 
                     <div className={s.medium}>
-                        <img className={s.img} style={Info5Img} alt="Motorcycle Harley Davidson"/>
+                        <img className={s.img} style={Info5Img}/>
                         <a className={s.content} href="#">
-                            <span className={s.title}>for the purchase of any motorcycle for the customers of the MotoHarley motorcycle school</span>
+                            <span className={s.title}>for the purchase of any motorcycle for the customers of the our motorcycle school</span>
                             <span className={s.discount}><span>up to</span>30%</span>
                         </a>
                     </div>
 
                     <div className={s.large}>
-                        <img className={s.img} style={Info6Img} alt="Motorcycle Harley Davidson"/>
+                        <img className={s.img} style={Info6Img}/>
                         <a className={s.content} href="#">
                             <span className={s.title}>Discounts for regular and wholesale customers from our motorcycle house.</span>
                             <span className={s.discount}><span>up to</span>15-50%</span>
