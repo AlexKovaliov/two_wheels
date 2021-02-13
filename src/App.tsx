@@ -9,6 +9,7 @@ import {BottomInfo} from "./components/BottomInfo/BottomInfo";
 import {Form} from "./components/Form/Form";
 import {Service} from './components/Service/Service';
 import {ServiceData} from "./components/Service/ServiceData";
+import {Gallery} from './components/Gallery/Gallery';
 
 function App() {
     return (
@@ -20,6 +21,7 @@ function App() {
             <BottomInfo/>
             <Form/>
             <Service data={ServiceData}/>
+            <Gallery/>
         </div>
     );
 }
