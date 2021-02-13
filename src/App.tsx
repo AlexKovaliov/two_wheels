@@ -10,6 +10,7 @@ import {Form} from "./components/Form/Form";
 import {Service} from './components/Service/Service';
 import {ServiceData} from "./components/Service/ServiceData";
 import {Gallery} from './components/Gallery/Gallery';
+import {Footer} from "./components/Footer/Footer";
 
 function App() {
     return (
@@ -22,6 +23,7 @@ function App() {
             <Form/>
             <Service data={ServiceData}/>
             <Gallery/>
+            <Footer/>
         </div>
     );
 }
