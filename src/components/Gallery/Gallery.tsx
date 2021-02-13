@@ -17,7 +17,7 @@ export function Gallery() {
         <section className={s.gallery}>
             {galleryData.map((value) => {
                 return (
-                    <img src={value.img} alt={value.alt}/>
+                    <img className={s.item} src={value.img} alt={value.alt}/>
                 )
             })}
         </section>
