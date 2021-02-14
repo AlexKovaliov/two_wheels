@@ -11,6 +11,7 @@ import {Service} from './components/Service/Service';
 import {ServiceData} from "./components/Service/ServiceData";
 import {Gallery} from './components/Gallery/Gallery';
 import {Footer} from "./components/Footer/Footer";
+import {footerData} from "./components/Footer/FooterData";
 
 function App() {
     return (
@@ -23,7 +24,7 @@ function App() {
             <Form/>
             <Service data={ServiceData}/>
             <Gallery/>
-            <Footer/>
+            <Footer social={footerData}/>
         </div>
     );
 }
