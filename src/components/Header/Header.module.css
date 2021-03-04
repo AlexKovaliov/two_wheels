@@ -16,14 +16,8 @@
 
 .row {
     margin-bottom: 150px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -37,8 +31,6 @@
 }
 
 .nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     color: #404040;
     font-family: 'Teko', sans-serif;
@@ -65,7 +57,6 @@
     height: 6px;
     background-color: #004cff;
     pointer-events: none;
-    -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
 }
 
@@ -96,7 +87,6 @@
     text-transform: uppercase;
     letter-spacing: 0.45px;
     text-decoration: none;
-    -webkit-transition: background-color 0.2s ease-in;
     transition: background-color 0.2s ease-in;
 }
 
@@ -131,7 +121,6 @@
     font-weight: 600;
     text-transform: uppercase;
     text-decoration: none;
-    -webkit-transition: border-color 0.2s ease-in, color 0.2s ease-in;
     transition: border-color 0.2s ease-in, color 0.2s ease-in;
 }
 

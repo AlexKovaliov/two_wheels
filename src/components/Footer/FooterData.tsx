@@ -4,28 +4,32 @@ import linkedin from '../../img/socials/linkedin.svg'
 import twitter from '../../img/socials/twitter.svg'
 
 
-export type FooterDataType = { img: string, link: string, alt: string } []
+export type FooterDataType = { img: string, link: string } []
 
 
 export let footerData: FooterDataType = [
     {
-        img: "facebook",
+        img: facebook,
         link: "https://www.facebook.com/",
-        alt: "facebook"
     },
     {
-        img: "instagram",
+        img: instagram,
         link: "https://www.instagram.com/",
-        alt: "instagram"
     },
     {
-        img: "linkedin",
+        img: linkedin,
         link: "https://www.linkedin.com/",
-        alt: "linkedin"
     },
     {
-        img: "twitter",
+        img: twitter,
         link: "https://twitter.com/",
-        alt: "twitter"
     }
+]
+
+export let columnData = [
+    {
+        item1: "Profile",
+        item2: "About us",
+        item3: "Contact",
+    },
 ]

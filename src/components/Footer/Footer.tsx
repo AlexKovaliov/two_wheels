@@ -22,11 +22,13 @@ export function Footer(props: { social: FooterDataType }) {
                             <Title title={"Follow Us"}/>
                             <div className={s.socials}>
                                 {props.social.map((value) => {
-                                    return <a href={value.link} target="_blank">
+                                    return (
                                         <div className={s.item}>
-                                            <img src={value.img} alt={value.alt}/>
+                                            <a href={value.link} target="_blank">
+                                                <img className={s.svg} src={value.img}/>
+                                            </a>
                                         </div>
-                                    </a>
+                                    )
                                 })}
                             </div>
                         </div>

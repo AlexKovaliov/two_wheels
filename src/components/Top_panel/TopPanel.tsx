@@ -3,7 +3,7 @@ import s from './TopPanel.module.css'
 import {TopPanelLink} from "./TopPanelLink/TopPanelLink";
 import {LinkData} from "./TopPanelLink/LinkData";
 
-export function TopPanel() {
+function TopPanel() {
     return (
         <div className={s.topPanel}>
             <div className={s.container}>
@@ -19,3 +19,5 @@ export function TopPanel() {
         </div>
     );
 }
+
+export default React.memo(TopPanel)

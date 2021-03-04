@@ -7,10 +7,10 @@ type TopPanelLinkImagesType = { image: string, alt: string, way: string }[]
 export function TopPanelLink(props: { images: TopPanelLinkImagesType }) {
     return (
         <div className={s.icons}>
-            {props.images.map((value) => {
+            {props.images.map((el, index) => {
                 return (
-                    <a href={value.way} className={s.link}>
-                        <img src={value.image} alt={value.alt}/>
+                    <a key={index} href={el.way} className={s.link}>
+                        <img src={el.image} alt={el.alt}/>
                     </a>
                 )
             })}
