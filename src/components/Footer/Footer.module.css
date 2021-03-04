@@ -30,19 +30,22 @@
 
 .socials {
     display: flex;
-    justify-content: space-between;
 }
 
 .item {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 45px;
+    height: 45px;
+    margin-left: 12px;
     border-radius: 20%;
     background-color: #ffffff;
     cursor: pointer;
     transition: width 0.2s 0.2s ease-in;
+}
+.item:first-child {
+    margin-left: 0;
 }
 
 .item:hover {
@@ -50,9 +53,12 @@
 }
 
 .svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 45px;
+    width: 35px;
     transition: width 0.2s ease-in;
 }

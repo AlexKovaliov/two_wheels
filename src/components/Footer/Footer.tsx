@@ -1,10 +1,11 @@
 import React from 'react'
 import s from './Footer.module.css'
 import {Title} from "./Title/Title";
-import {FooterDataType} from "./FooterData";
+import {footerData} from "./FooterData";
+import Social from "./Social";
 
 
-export function Footer(props: { social: FooterDataType }) {
+export function Footer() {
 
     return (
         <footer className={s.footer}>
@@ -21,13 +22,11 @@ export function Footer(props: { social: FooterDataType }) {
                         <div className={s.group}>
                             <Title title={"Follow Us"}/>
                             <div className={s.socials}>
-                                {props.social.map((value) => {
+                                {footerData.map((el, index) => {
                                     return (
-                                        <div className={s.item}>
-                                            <a href={value.link} target="_blank">
-                                                <img className={s.svg} src={value.img}/>
-                                            </a>
-                                        </div>
+                                        <Social key={index}
+                                                img={el.img}
+                                                link={el.link}/>
                                     )
                                 })}
                             </div>
