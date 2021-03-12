@@ -10,6 +10,7 @@ import {Form} from "./components/Form/Form";
 import Service from './components/Service/Service';
 import {Gallery} from './components/Gallery/Gallery';
 import {Footer} from "./components/Footer/Footer";
+import {Basement} from "./components/Basement/Basement";
 
 function App() {
     return (
@@ -23,6 +24,7 @@ function App() {
             <Service/>
             <Gallery/>
             <Footer/>
+            <Basement/>
         </div>
     );
 }
