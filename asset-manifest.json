@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/two_wheels/static/css/main.8a7652ac.chunk.css",
-    "main.js": "/two_wheels/static/js/main.86450d99.chunk.js",
-    "main.js.map": "/two_wheels/static/js/main.86450d99.chunk.js.map",
-    "runtime-main.js": "/two_wheels/static/js/runtime-main.1fad3b9d.js",
-    "runtime-main.js.map": "/two_wheels/static/js/runtime-main.1fad3b9d.js.map",
-    "static/js/2.d84c0a4b.chunk.js": "/two_wheels/static/js/2.d84c0a4b.chunk.js",
-    "static/js/2.d84c0a4b.chunk.js.map": "/two_wheels/static/js/2.d84c0a4b.chunk.js.map",
-    "static/js/3.bc8d9c7e.chunk.js": "/two_wheels/static/js/3.bc8d9c7e.chunk.js",
-    "static/js/3.bc8d9c7e.chunk.js.map": "/two_wheels/static/js/3.bc8d9c7e.chunk.js.map",
+    "main.css": "/two_wheels/static/css/main.8ade23f4.chunk.css",
+    "main.js": "/two_wheels/static/js/main.f2ada9ec.chunk.js",
+    "main.js.map": "/two_wheels/static/js/main.f2ada9ec.chunk.js.map",
+    "runtime-main.js": "/two_wheels/static/js/runtime-main.edf9a704.js",
+    "runtime-main.js.map": "/two_wheels/static/js/runtime-main.edf9a704.js.map",
+    "static/js/2.5e98efe8.chunk.js": "/two_wheels/static/js/2.5e98efe8.chunk.js",
+    "static/js/2.5e98efe8.chunk.js.map": "/two_wheels/static/js/2.5e98efe8.chunk.js.map",
+    "static/js/3.3b8eafc1.chunk.js": "/two_wheels/static/js/3.3b8eafc1.chunk.js",
+    "static/js/3.3b8eafc1.chunk.js.map": "/two_wheels/static/js/3.3b8eafc1.chunk.js.map",
     "index.html": "/two_wheels/index.html",
-    "static/css/main.8a7652ac.chunk.css.map": "/two_wheels/static/css/main.8a7652ac.chunk.css.map",
-    "static/js/2.d84c0a4b.chunk.js.LICENSE.txt": "/two_wheels/static/js/2.d84c0a4b.chunk.js.LICENSE.txt",
+    "static/css/main.8ade23f4.chunk.css.map": "/two_wheels/static/css/main.8ade23f4.chunk.css.map",
+    "static/js/2.5e98efe8.chunk.js.LICENSE.txt": "/two_wheels/static/js/2.5e98efe8.chunk.js.LICENSE.txt",
     "static/media/cart.51288ef1.svg": "/two_wheels/static/media/cart.51288ef1.svg",
+    "static/media/ebay.8b7f5a05.svg": "/two_wheels/static/media/ebay.8b7f5a05.svg",
     "static/media/facebook.3f7115f9.svg": "/two_wheels/static/media/facebook.3f7115f9.svg",
     "static/media/gallary1.c7684468.jpg": "/two_wheels/static/media/gallary1.c7684468.jpg",
     "static/media/gallary2.c975cbc5.jpg": "/two_wheels/static/media/gallary2.c975cbc5.jpg",
@@ -28,17 +29,20 @@
     "static/media/instagram.c59b798d.svg": "/two_wheels/static/media/instagram.c59b798d.svg",
     "static/media/linkedin.7defd339.svg": "/two_wheels/static/media/linkedin.7defd339.svg",
     "static/media/logo.1e7f9ce7.svg": "/two_wheels/static/media/logo.1e7f9ce7.svg",
+    "static/media/logoWhite.9cc24446.svg": "/two_wheels/static/media/logoWhite.9cc24446.svg",
+    "static/media/mastercard-2.18573a57.svg": "/two_wheels/static/media/mastercard-2.18573a57.svg",
     "static/media/money.d1213818.svg": "/two_wheels/static/media/money.d1213818.svg",
     "static/media/search.5244d5ca.svg": "/two_wheels/static/media/search.5244d5ca.svg",
     "static/media/support.ce080112.svg": "/two_wheels/static/media/support.ce080112.svg",
     "static/media/truck.5e88d395.svg": "/two_wheels/static/media/truck.5e88d395.svg",
     "static/media/twitter.b80161ac.svg": "/two_wheels/static/media/twitter.b80161ac.svg",
-    "static/media/user.c44a161c.svg": "/two_wheels/static/media/user.c44a161c.svg"
+    "static/media/user.c44a161c.svg": "/two_wheels/static/media/user.c44a161c.svg",
+    "static/media/visa.24e0c44e.svg": "/two_wheels/static/media/visa.24e0c44e.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1fad3b9d.js",
-    "static/js/2.d84c0a4b.chunk.js",
-    "static/css/main.8a7652ac.chunk.css",
-    "static/js/main.86450d99.chunk.js"
+    "static/js/runtime-main.edf9a704.js",
+    "static/js/2.5e98efe8.chunk.js",
+    "static/css/main.8ade23f4.chunk.css",
+    "static/js/main.f2ada9ec.chunk.js"
   ]
 }
